@@ -1,9 +1,11 @@
 {
   "name": "astro-etag",
-  "version": "1.0.0",
-  "description": "",
+  "version": "1.0.2",
+  "description": "Simple Astro integration for generating ETag sidecar files for your build.",
   "keywords": [
-    "astro-integration"
+    "astro-integration",
+    "etag",
+    "etags"
   ],
   "author": "Ovyerus <ovy@ovyerus.com>",
   "license": "MIT",
