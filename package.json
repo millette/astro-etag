@@ -1,0 +1,39 @@
+{
+  "name": "astro-etag",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [
+    "astro-integration"
+  ],
+  "author": "Ovyerus <ovy@ovyerus.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Ovyerus/astro-etag.git"
+  },
+  "bugs": "https://github.com/Ovyerus/astro-etag/issues",
+  "homepage": "https://github.com/Ovyerus/astro-etag",
+  "scripts": {
+    "build": "rm -rf ./dist && tsc",
+    "dev": "tsc --watch",
+    "prepack": "pnpm build"
+  },
+  "type": "module",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": "./dist/index.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "packageManager": "pnpm@10.12.4",
+  "devDependencies": {
+    "@types/node": "^22.16.2",
+    "astro": "^5.11.0",
+    "prettier": "^3.6.2",
+    "typescript": "^5.8.3"
+  },
+  "peerDependencies": {
+    "astro": ">=5.0.0"
+  }
+}
