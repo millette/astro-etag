@@ -35,7 +35,7 @@ export default defineConfig({
 });
 ```
 
-If you're using other integrations, add `astro-etag` to the end of your integrations array, so that it can work on every generated fie from previous integrations.
+If you're using other integrations, add `astro-etag` to the end of your integrations array, so that it can work on every generated file from previous integrations.
 
 ## Usage with Caddy
 
